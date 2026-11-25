@@ -48,6 +48,6 @@ Problem, Impact, Where, Who, Why, When, Fix.
 - Correlations are not causes. Some language groups are small (Korean: 97 responses).
 - County wait and abandonment are reported averages, not call-level data.
 - **The PBIX has not been opened in Power BI Desktop or the Power BI service.** Its data model was read back with an independent open-source reader: 2 tables, 28,816 survey rows and 306 county-month rows, 27 measures, and the totals match the source data. Page layout and visuals were not rendered, so how the report looks is unverified. It uses basic visuals, so it does not match the HTML dashboard (no gauge, heatmaps, bubble chart or correlation matrix).
-- **The SQL playbook was syntax-reviewed only. It has not been run on a live PostgreSQL database.**
+- The SQL playbook was run end to end on a local PostgreSQL 16 test server with the full survey and the synthetic QA files: no errors, and the CSAT result (80.87%) matches the dashboard. It has not been run on any other database setup.
 - The QA section uses synthetic data only.
 - The Pages version loads the ECharts library from a CDN.
