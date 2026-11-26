@@ -1,8 +1,12 @@
 # Contact Center Insights Dashboard
 
-A personal portfolio project: what drives customer satisfaction in a contact center, and where call centers lose callers. Public data only. Not client work.
+## [Open the live dashboard](https://anas-abdelhafeez.github.io/contact-center-insights-dashboard/)
 
-**Live dashboard:** https://anas-abdelhafeez.github.io/contact-center-insights-dashboard/ (7 tabs in story order, needs internet for the chart library)
+<a href="https://anas-abdelhafeez.github.io/contact-center-insights-dashboard/"><img src="screenshots/tab_1_Problem.png" alt="Contact center dashboard" width="720"></a>
+
+https://anas-abdelhafeez.github.io/contact-center-insights-dashboard/
+
+A personal portfolio project: what drives customer satisfaction in a contact center, and where call centers lose callers. Public data only. Not client work.
 
 ## The story (7 tabs)
 Problem, Impact, Where, Who, Why, When, Fix.
